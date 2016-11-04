@@ -1,0 +1,18 @@
+[alias]
+    st = status
+    ci = commit
+    cl = clone
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    who = shortlog -s --
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+
+[color "branch"]
+  remote = yellow
